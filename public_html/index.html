@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Hand Cricket</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/lib/phaser.min.js" type="text/javascript"></script>        
+    </head>
+    <body>
+        <script>
+            var FBAppID = '253410705154739';
+
+            window.fbAsyncInit = function () {
+                FB.init({
+                    appId: FBAppID,
+                    cookie: true,
+                    xfbml: true,
+                    version: 'v2.10'
+                });
+        
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {
+                    return;
+                }
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <script src="js/Load.js" type="text/javascript"></script>
+        <script src="js/objs/FBUser.js" type="text/javascript"></script>
+        <script src="js/objs/Tile.js" type="text/javascript"></script>
+        <script src="js/Boot_HC.js" type="text/javascript"></script>
+        <script src="js/leaderboard_HC.js" type="text/javascript"></script>
+        <script src="js/Endgame_HC.js" type="text/javascript"></script>
+        <script src="js/Instructions.js" type="text/javascript"></script>
+        <script src="js/logoSplash.js" type="text/javascript"></script>
+        <script src="js/Splash.js" type="text/javascript"></script>
+        <script src="js/Play.js" type="text/javascript"></script>
+        <script src="js/Pause.js" type="text/javascript"></script>
+        <script src="js/Game.js" type="text/javascript"></script>        
+    </body>
+</html>

@@ -1,0 +1,5 @@
+projectKey=WLSMG:hand-cricket
+serverUrl=http://sonar.littlemonkey.co.nz
+dashboardUrl=http://sonar.littlemonkey.co.nz/dashboard/index/WLSMG:hand-cricket
+ceTaskId=AV13RmYkdF3U4gXuTTvL
+ceTaskUrl=http://sonar.littlemonkey.co.nz/api/ce/task?id=AV13RmYkdF3U4gXuTTvL
